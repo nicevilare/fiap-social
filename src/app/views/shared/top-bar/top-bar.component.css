@@ -1,0 +1,41 @@
+header {
+    height: 80px;
+    padding: 0px 14px;
+    background-color: var(--bgSecondary);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    box-shadow: 0px 0px 10px #ED145899;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header>div>p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header>span {
+    font-size: 28px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+header>span:hover {
+    color: var(--primary);
+    transform: scale(1.2);
+}
+
+header>span:active {
+    transform: rotate(180deg);
+}

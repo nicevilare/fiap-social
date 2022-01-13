@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --primary: #ED145B;
+    --bgPrimary: #08090B;
+    --bgSecondary: #1B1E22;
+    --textPrimary: #91A3AD;
+    --textSecondary: #616D72;
+    --textButton: #ffffff;
+  }
+  
+  body{
+    font-family: sans-serif;
+    background-color: var(--bgPrimary);
+  
+    color: var(--textPrimary);
+ 
+  }
+
+  input {
+    border: 2px solid var(--primary);
+    width: 100%;
+    padding: 5px;
+    height: 35px;
+  }
+  
+  button {
+    color: var(--textButton);
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--primary);
+    border:none;
+    transition: transform 0.2s;
+  
+  }
+  
+  button:active{
+    transform: scale(0.9);
+  }
+  
+  
